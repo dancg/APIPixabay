@@ -1,0 +1,20 @@
+{
+    "name": "daniel/proyectopixabay",
+    "description": "Proyecto fotos API pixabay",
+    "type": "project",
+    "license": "gnu/gpl",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dancg",
+            "email": "dannycalgon@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
